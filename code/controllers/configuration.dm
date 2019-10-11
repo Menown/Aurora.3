@@ -319,7 +319,7 @@ var/list/gamemode_cache = list()
 				src.modes += M.config_tag
 				src.mode_names[M.config_tag] = M.name
 				src.probabilities_secret[M.config_tag] = M.probability
-				if (M.config_tag in current_map.allowed_gamemodes)
+				if (M.votable)
 					src.votable_modes += M.config_tag
 	src.votable_modes += ROUNDTYPE_STR_SECRET
 //	votable_modes += ROUNDTYPE_STR_MIXED_SECRET

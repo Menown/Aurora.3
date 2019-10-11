@@ -49,7 +49,7 @@
 	..()
 
 // Special asteroid variant that goes with lava better.
-/turf/unsimulated/floor/asteroid/basalt
+/turf/simulated/floor/asteroid/basalt
 	name = "basalt"
 	icon = 'icons/turf/basalt.dmi'
 	icon_state = "basalt"
@@ -72,7 +72,7 @@
 		underlay_appearance.icon_state += "[rand(0,12)]"
 	return TRUE
 
-/turf/unsimulated/floor/asteroid/basalt/Initialize(mapload)
+/turf/simulated/floor/asteroid/basalt/Initialize(mapload)
 	if (prob(20))
 		var/variant = rand(0,12)
 		icon_state = "basalt[variant]"
@@ -85,7 +85,7 @@
 				light_range = 2
 	. = ..()
 
-/turf/unsimulated/floor/asteroid/ash
+/turf/simulated/floor/asteroid/ash
 	name = "ash"
 	icon_state = "ash"
 	desc = "A fine grey ash. Looks pretty tightly packed."
@@ -94,12 +94,12 @@
 	base_icon_state = "ash"
 	footstep_sound = "sandstep"
 
-/turf/unsimulated/floor/asteroid/ash/Initialize()
+/turf/simulated/floor/asteroid/ash/Initialize()
 	. = ..()
 	if (prob(20))
 		add_overlay("asteroid[rand(0, 9)]", TRUE)
 
-/turf/unsimulated/floor/asteroid/ash/rocky
+/turf/simulated/floor/asteroid/ash/rocky
 	name = "rocky ash"
 	icon_state = "rockyash"
 	base_icon_state = "rockyash"

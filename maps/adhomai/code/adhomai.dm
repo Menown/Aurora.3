@@ -38,9 +38,6 @@
 
 	regular_turf_temperature = T0C-20
 
-	allowed_gamemodes = list("changeling", "cult", "extended","conflux", "feeding", "siege", "traitorling", "uprising", "veilparty", "mercenary", "revolution",
-							"autotraitor", "traitor", "vampire", "wizard")
-
 	mudane_events	= list(
 		// Severity level, event name, even type, base weight, role weights, one shot, min weight, max weight. Last two only used if set and non-zero
 		new /datum/event_meta(EVENT_LEVEL_MUNDANE, "Nothing",					/datum/event/nothing,				120),

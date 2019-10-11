@@ -3722,7 +3722,7 @@
 "ka" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/mouse,
+/mob/living/simple_animal/rat,
 /turf/simulated/shuttle/floor,
 /area/template_noop)
 "kb" = (
@@ -10599,21 +10599,21 @@
 /obj/item/device/multitool,
 /obj/item/device/flash,
 /obj/item/device/flash,
-/obj/item/weapon/rcd,
-/obj/item/weapon/rcd,
-/obj/item/weapon/rcd_ammo,
-/obj/item/weapon/rcd_ammo,
-/obj/item/weapon/rcd_ammo,
-/obj/item/weapon/rcd_ammo,
-/obj/item/weapon/rcd,
-/obj/item/weapon/rcd,
-/obj/item/weapon/rcd_ammo,
-/obj/item/weapon/rcd_ammo,
-/obj/item/weapon/rcd_ammo,
-/obj/item/weapon/rcd_ammo,
-/obj/item/weapon/rcd_ammo,
-/obj/item/weapon/rcd_ammo,
-/obj/item/weapon/rcd_ammo,
+/obj/item/weapon/rfd/construction,
+/obj/item/weapon/rfd/construction,
+/obj/item/weapon/rfd_ammo,
+/obj/item/weapon/rfd_ammo,
+/obj/item/weapon/rfd_ammo,
+/obj/item/weapon/rfd_ammo,
+/obj/item/weapon/rfd/construction,
+/obj/item/weapon/rfd/construction,
+/obj/item/weapon/rfd_ammo,
+/obj/item/weapon/rfd_ammo,
+/obj/item/weapon/rfd_ammo,
+/obj/item/weapon/rfd_ammo,
+/obj/item/weapon/rfd_ammo,
+/obj/item/weapon/rfd_ammo,
+/obj/item/weapon/rfd_ammo,
 /obj/structure/table/reinforced/steel,
 /obj/machinery/light{
 	dir = 4;
@@ -10720,7 +10720,7 @@
 /area/centcom/specops)
 "yG" = (
 /obj/item/mecha_parts/mecha_equipment/tool/extinguisher,
-/obj/item/mecha_parts/mecha_equipment/tool/rcd,
+/obj/item/mecha_parts/mecha_equipment/tool/rfd_c,
 /obj/item/weapon/pickaxe/diamonddrill,
 /obj/structure/table/reinforced/steel,
 /obj/item/weapon/pickaxe/diamonddrill,
@@ -11176,8 +11176,8 @@
 /obj/item/rig_module/device/healthscanner,
 /obj/item/rig_module/mounted/plasmacutter,
 /obj/item/rig_module/mounted/plasmacutter,
-/obj/item/rig_module/device/rcd,
-/obj/item/rig_module/device/rcd,
+/obj/item/rig_module/device/rfd_c,
+/obj/item/rig_module/device/rfd_c,
 /obj/item/rig_module/chem_dispenser/injector,
 /obj/item/rig_module/chem_dispenser/injector,
 /obj/item/rig_module/chem_dispenser/combat,
@@ -13194,7 +13194,7 @@
 /obj/structure/window/reinforced{
 	dir = 8
 	},
-/obj/machinery/computer/skills{
+/obj/machinery/computer/records/employment{
 	icon_state = "medlaptop";
 	pixel_x = 3;
 	pixel_y = 4
@@ -14341,7 +14341,7 @@
 	},
 /area/syndicate_mothership/raider_base)
 "Gk" = (
-/obj/structure/reagent_dispensers/beerkeg,
+/obj/item/weapon/reagent_containers/chem_disp_cartridge/beer,
 /turf/unsimulated/floor{
 	dir = 8;
 	icon_state = "wood"
@@ -15395,12 +15395,6 @@
 	icon_state = "floor3"
 	},
 /area/shuttle/escape/centcom)
-"IE" = (
-/obj/item/organ/xenos/eggsac,
-/turf/unsimulated/floor{
-	icon_state = "asteroid"
-	},
-/area/syndicate_mothership/raider_base)
 "IF" = (
 /turf/unsimulated/floor{
 	icon_state = "asteroid"
@@ -20348,7 +20342,7 @@
 	},
 /area/tdome/tdomeobserve)
 "Tk" = (
-/obj/structure/reagent_dispensers/beerkeg,
+/obj/item/weapon/reagent_containers/chem_disp_cartridge/beer,
 /turf/unsimulated/floor{
 	icon_state = "redbluefull";
 	dir = 8
@@ -23179,7 +23173,7 @@
 /obj/item/weapon/storage/firstaid/brute,
 /obj/item/weapon/reagent_containers/glass/bottle/antitoxin,
 /obj/item/weapon/reagent_containers/glass/bottle/inaprovaline,
-/obj/item/weapon/storage/pill_bottle/spaceacillin,
+/obj/item/weapon/reagent_containers/chem_disp_cartridge/thetamycin,
 /obj/item/weapon/storage/pill_bottle/tramadol,
 /obj/item/weapon/storage/pill_bottle/bicaridine,
 /obj/item/weapon/storage/pill_bottle/dermaline,
@@ -25154,7 +25148,7 @@ Et
 hV
 Gz
 Gz
-IE
+IF
 IF
 IF
 IF

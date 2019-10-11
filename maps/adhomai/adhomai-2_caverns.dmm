@@ -475,7 +475,7 @@
 /obj/item/weapon/storage/box/shotgunshells,
 /obj/item/weapon/storage/box/shotgunshells,
 /obj/item/weapon/gun/projectile/shotgun/doublebarrel/pellet,
-/obj/item/weapon/storage/belt/bandolier,
+/obj/item/clothing/accessory/storage/bandolier,
 /turf/simulated/floor/tiled/dark,
 /area/adhomai/village/police)
 "du" = (

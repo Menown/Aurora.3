@@ -6755,8 +6755,8 @@
 /obj/item/weapon/reagent_containers/glass/bottle/antitoxin,
 /obj/item/weapon/reagent_containers/glass/bottle/inaprovaline,
 /obj/effect/floor_decal/corner/green/diagonal,
-/obj/item/weapon/storage/pill_bottle/spaceacillin,
-/obj/item/weapon/storage/pill_bottle/spaceacillin,
+/obj/item/weapon/reagent_containers/chem_disp_cartridge/thetamycin,
+/obj/item/weapon/reagent_containers/chem_disp_cartridge/thetamycin,
 /obj/item/weapon/storage/pill_bottle/tramadol,
 /turf/simulated/floor/tiled/white,
 /area/adhomai/village/medical)
