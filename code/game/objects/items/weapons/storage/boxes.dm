@@ -147,7 +147,7 @@
 	name = "box of sterile gloves"
 	desc = "Contains sterile gloves."
 	icon_state = "latex"
-	starts_with = list(/obj/item/clothing/gloves/latex = 4, /obj/item/clothing/gloves/latex/nitrile = 3)
+	starts_with = list(/obj/item/clothing/gloves/latex/nitrile = 7)
 
 /obj/item/weapon/storage/box/masks
 	name = "box of sterile masks"
@@ -343,6 +343,26 @@
 	name = "box of drinking glasses"
 	desc = "It has a picture of drinking glasses on it."
 	starts_with = list(/obj/item/weapon/reagent_containers/food/drinks/drinkingglass = 6)
+
+/obj/item/weapon/storage/box/utensils
+	name = "box of utensils"
+	desc = "It has a picture of a fork on it. It seems happy."
+	storage_slots = 12
+
+/obj/item/weapon/storage/box/utensils/fill()
+	..()
+	new /obj/item/weapon/material/kitchen/utensil/spoon(src)
+	new /obj/item/weapon/material/kitchen/utensil/spoon(src)
+	new /obj/item/weapon/material/kitchen/utensil/spoon(src)
+	new /obj/item/weapon/material/kitchen/utensil/spoon(src)
+	new /obj/item/weapon/material/kitchen/utensil/spoon(src)
+	new /obj/item/weapon/material/kitchen/utensil/spoon(src)
+	new /obj/item/weapon/material/kitchen/utensil/fork(src)
+	new /obj/item/weapon/material/kitchen/utensil/fork(src)
+	new /obj/item/weapon/material/kitchen/utensil/fork(src)
+	new /obj/item/weapon/material/kitchen/utensil/fork(src)
+	new /obj/item/weapon/material/kitchen/utensil/fork(src)
+	new /obj/item/weapon/material/kitchen/utensil/fork(src)
 
 /obj/item/weapon/storage/box/cdeathalarm_kit
 	name = "death alarm kit"
@@ -670,6 +690,16 @@
 
 /obj/item/weapon/storage/box/produce/fill()
 	. = ..()
+	make_exact_fit()
+
+/obj/item/weapon/storage/box/produce/adhomai
+	name = "produce box"
+	desc = "A large box of random, leftover produce."
+	icon_state = "largebox"
+
+/obj/item/weapon/storage/box/produce/adhomai/fill()
+	for(var/i in 1 to 12)
+		new /obj/random_produce(src)
 	make_exact_fit()
 
 

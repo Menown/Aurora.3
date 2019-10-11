@@ -102,7 +102,6 @@
 	icon_state = "chickenbreast"
 	desc = "You have reached the epitome of poorness: eating the station's vermin."
 
-
 /obj/item/weapon/reagent_containers/food/snacks/meat/rat/Initialize()
 	. = ..()
 	reagents.add_reagent("protein", 5)

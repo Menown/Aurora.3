@@ -288,6 +288,9 @@ INITIALIZE_IMMEDIATE(/mob/abstract/new_player)
 	if((character_age < job.minimum_character_age) && !(species.spawn_flags & NO_AGE_MINIMUM))
 		return FALSE
 
+	if(src.client.prefs.species in job.species_blacklist)
+		return FALSE
+
 	return TRUE
 
 

@@ -112,6 +112,7 @@
 	icon_state = "puppy"
 	icon_living = "puppy"
 	icon_dead = "puppy_dead"
+	butchering_products = list(/obj/item/stack/material/animalhide/corgi = 1)
 
 	butchering_products = list(/obj/item/stack/material/animalhide/corgi = 1)
 

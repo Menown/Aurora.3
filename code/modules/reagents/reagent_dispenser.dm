@@ -396,3 +396,14 @@
 		else if (reagents.total_volume > 500)
 			env.temperature -= 100
 		QDEL_IN(src, 10)
+
+/obj/structure/reagent_dispensers/woodpulp
+	name = "wood pulp tank"
+	desc = "A tank filled with a lot of wood pulp, probably an organic fuel source."
+	icon = 'icons/obj/objects.dmi'
+	icon_state = "lubetank"
+	amount_per_transfer_from_this = 10
+
+/obj/structure/reagent_dispensers/woodpulp/Initialize()
+	. = ..()
+	reagents.add_reagent("woodpulp",capacity)

@@ -159,6 +159,20 @@
 /obj/item/weapon/trap/animal/update_icon()
 	icon = initial(icon)
 	icon_state = "[icon_base][deployed]"
+	var/datum/L = captured ? captured.resolve() : null
+	if (!L)
+		deployed = FALSE
+		captured = null
+		release_time = world.time
+		underlays.Cut()
+		STOP_PROCESSING(SSprocessing, src)
+		return
+	if(isliving(L))
+		var/mutable_appearance/MA = new(L)
+		MA.layer = FLOAT_LAYER
+		MA.plane = FLOAT_PLANE
+		underlays.Cut()
+		underlays += MA
 
 /obj/item/weapon/trap/animal/examine(mob/user)
 	..()
@@ -166,7 +180,23 @@
 		var/datum/L = captured.resolve()
 		if (!L)
 			return
-		to_chat(user, "<span class='notice'>\The [src] has [L].</span>")
+		if (isliving(L))
+			var/mob/living/ll = L
+			var/message = "<span class='notice'>\The [src] has [ll] and it is "
+			if(ll.stat == DEAD)
+				message += "<span class='danger'>dead</span>"
+			else if(ll == UNCONSCIOUS)
+				message += "<span class='warning'>unconscious</span>"
+			else if((ll.maxHealth / ll.health) == 1)
+				message += "<span class='good'>healthy</span>"
+			else
+				message += "<span class='warning'>wounded</span>"
+			message += ".</span>"
+			to_chat(user, message)
+			ll.examine(user)
+		else if (istype(L, /obj/effect/spider/spiderling))
+			var/obj/effect/spider/spiderling/S = L
+			to_chat(user, "<span class='notice'>\The [src] has [S] and it is alive.</span>")
 
 	else
 		to_chat(user, "<span class='notice'>\The [src] is empty.</span>")
@@ -578,7 +608,7 @@
 	allowed_mobs = list(
 						/mob/living/simple_animal/cat, /mob/living/simple_animal/corgi, /mob/living/simple_animal/hostile/diyaab, /mob/living/carbon/human/monkey, /mob/living/simple_animal/penguin, /mob/living/simple_animal/crab,
 						/mob/living/simple_animal/chicken, /mob/living/simple_animal/yithian, /mob/living/carbon/alien/diona, /mob/living/silicon/robot/drone, /mob/living/silicon/pai,
-						/mob/living/simple_animal/spiderbot, /mob/living/simple_animal/hostile/tree)
+						/mob/living/simple_animal/spiderbot, /mob/living/simple_animal/hostile/tree, /mob/living/simple_animal/ice_tunneler)
 
 /obj/item/weapon/trap/animal/large
 	name = "large trap"
@@ -600,7 +630,7 @@
 	allowed_mobs = list(
 						/mob/living/simple_animal/hostile/retaliate/goat, /mob/living/simple_animal/cow, /mob/living/simple_animal/corgi/fox,
 						/mob/living/simple_animal/hostile/carp, /mob/living/simple_animal/hostile/bear, /mob/living/simple_animal/hostile/alien, /mob/living/simple_animal/hostile/giant_spider,
-						/mob/living/simple_animal/hostile/commanded/dog, /mob/living/simple_animal/hostile/retaliate/cavern_dweller, /mob/living/carbon/human/)
+						/mob/living/simple_animal/hostile/commanded/dog, /mob/living/simple_animal/hostile/retaliate/cavern_dweller, /mob/living/carbon/human/, /mob/living/simple_animal/hostile/retaliate/rafama)
 
 /obj/item/weapon/trap/animal/large/attack_hand(mob/user as mob)
 	return

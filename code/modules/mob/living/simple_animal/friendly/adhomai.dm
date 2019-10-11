@@ -40,41 +40,38 @@
 		eggsleft--
 		new /obj/item/weapon/reagent_containers/food/snacks/egg(get_turf(src))
 
-/mob/living/simple_animal/fatshouter
+/mob/living/simple_animal/cow/fatshouter
 	name = "fatshouter"
 	desc = "An adhomian animal known for its production of milk and wool."
+	icon = 'icons/adhomai/animals.dmi'
 	icon_state = "fatshouter"
 	icon_living = "fatshouter"
 	icon_dead = "fatshouter_dead"
-	speak_emote = list("brays")
-	emote_hear = list("brays")
-	emote_see = list("shakes its head")
-	speak_chance = 1
-	turns_per_move = 5
-	see_in_dark = 6
 	meat_type = /obj/item/weapon/reagent_containers/food/snacks/meat/adhomai
-	meat_amount = 30
-	response_help  = "pets"
-	response_disarm = "gently pushes aside"
-	response_harm   = "kicks"
-	attacktext = "kicked"
-	health = 200
-	maxHealth = 200
 
-	autoseek_food = 0
-	beg_for_food = 0
-	mob_size = 15
+/mob/living/simple_animal/cow/fatshouter/attackby(var/obj/item/O as obj, var/mob/user as mob)
+	var/obj/item/weapon/reagent_containers/glass/G = O
+	if(stat == CONSCIOUS && istype(G) && G.is_open_container())
+		user.visible_message("<span class='notice'>[user] milks [src] using \the [O].</span>")
+		var/transfered = udder.trans_id_to(G, "fatshouter_milk", rand(5,10))
+		if(G.reagents.total_volume >= G.volume)
+			to_chat(user, "<span class='warning'>The [O] is full.</span>")
+		if(!transfered)
+			to_chat(user, "<span class='warning'>The udder is dry. Wait a bit longer...</span>")
+	else
+		..()
 
-	has_udder = TRUE
-	milk_type = "fatshouter_milk"
-
-	meat_type = /obj/item/weapon/reagent_containers/food/snacks/meat/adhomai
-	butchering_products = list(/obj/item/stack/material/animalhide = 5)
+/mob/living/simple_animal/cow/fatshouter/Life()
+	. = ..()
+	if(stat == CONSCIOUS)
+		if(udder && prob(5))
+			udder.add_reagent("fatshouter_milk", rand(5, 10))
 
 
 /mob/living/simple_animal/hostile/retaliate/rafama
 	name = "steed of Mata'ke"
 	desc = "An animal native to Adhomai, known for its agressive behavior and mighty tusks."
+	icon = 'icons/adhomai/animals.dmi'
 	icon_state = "rafama"
 	icon_living = "rafama"
 	icon_dead = "rafama_dead"
@@ -87,8 +84,8 @@
 	mob_size = 12
 	meat_type = /obj/item/weapon/reagent_containers/food/snacks/meat/adhomai
 
-	maxHealth = 150
-	health = 150
+	maxHealth = 50
+	health = 50
 
 	harm_intent_damage = 3
 	melee_damage_lower = 15
@@ -96,5 +93,5 @@
 	attacktext = "bitten"
 	attack_sound = 'sound/weapons/bite.ogg'
 
-	butchering_products = list(/obj/item/stack/material/animalhide = 5)
-	meat_amount = 8
+	butchering_products = list(/obj/item/stack/material/animalhide = 8)
+	meat_amount = 10

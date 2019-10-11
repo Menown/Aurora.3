@@ -203,7 +203,7 @@
 	w_class = 3.0
 	amount_per_transfer_from_this = 20
 	possible_transfer_amounts = list(10,20,30,60,120)
-	volume = 120
+	volume = 600
 	flags = OPENCONTAINER
 	unacidable = 0
 	drop_sound = 'sound/items/drop/helm.ogg'
@@ -258,6 +258,8 @@ obj/item/weapon/reagent_containers/glass/bucket/wood
 	drop_sound = 'sound/items/drop/wooden.ogg'
 	carving_weapon = /obj/item/weapon/material/hatchet
 	helmet_type = /obj/item/clothing/head/helmet/bucket/wood
+	volume = 1200
+	w_class = 4.0
 
 /obj/item/weapon/reagent_containers/glass/bucket/wood/attackby(var/obj/D, mob/user as mob)
 	if(isprox(D))

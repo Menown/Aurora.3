@@ -187,6 +187,7 @@
 			S.name = "dried [S.name]"
 			S.color = "#AAAAAA"
 			S.forceMove(loc)
+			S.reagents.remove_reagent("nutriment", INFINITY) // dried fruits are now useless, but also assists in cooking since they can be ground up for their reagents.
 		else
 			var/D = S.dried_type
 			new D(loc)

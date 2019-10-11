@@ -85,6 +85,12 @@
 	icon_state = "slag"
 	material = null
 
+/obj/item/weapon/ore/meteoric_iron
+	name = "meteoric iron oxide"
+	desc = "Iron oxide, probably from a meteor."
+	icon_state = "ore_iron"
+	material = ORE_METEORIC
+
 /obj/item/weapon/ore/New()
 	if((randpixel_xy()) && icon_state == "ore1")
 		icon_state = "ore[pick(1,2,3)]"

@@ -38,6 +38,7 @@
 
 	attack_emote = "skitters toward"
 	emote_sounds = list('sound/effects/creatures/spider_critter.ogg')
+	butchering_products = list(/obj/item/stack/material/animalhide = 3)
 
 //nursemaids - these create webs and eggs
 /mob/living/simple_animal/hostile/giant_spider/nurse
@@ -54,6 +55,8 @@
 	poison_type = "stoxin"
 	var/fed = 0
 
+	butchering_products = list(/obj/item/stack/material/animalhide = 2)
+
 //hunters have the most poison and move the fastest, so they can find prey
 /mob/living/simple_animal/hostile/giant_spider/hunter
 	desc = "Furry and black, it makes you shudder to look at it. This one has sparkling purple eyes."
@@ -66,6 +69,8 @@
 	melee_damage_upper = 20
 	poison_per_bite = 5
 	move_to_delay = 4
+
+	butchering_products = list(/obj/item/stack/material/animalhide = 2)
 
 /mob/living/simple_animal/hostile/giant_spider/Initialize(mapload, atom/parent)
 	get_light_and_color(parent)

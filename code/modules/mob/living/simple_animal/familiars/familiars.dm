@@ -73,6 +73,7 @@
 
 	flying = TRUE
 
+
 /mob/living/simple_animal/familiar/pike/Allow_Spacemove(var/check_drift = 0)
 	return 1
 

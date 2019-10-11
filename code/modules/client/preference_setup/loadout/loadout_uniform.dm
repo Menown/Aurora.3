@@ -12,7 +12,7 @@
 /datum/gear/uniform/iacjumpsuit
 	display_name = "IAC Jumpsuit"
 	path = /obj/item/clothing/under/rank/iacjumpsuit
-	allowed_roles = list("Chief Medical Officer", "Medical Doctor", "Pharmacist", "Paramedic", "Medical Resident")
+	allowed_roles = list(MEDICAL_ROLES, "Physician")
 
 /datum/gear/uniform/jumpsuit
 	display_name = "generic jumpsuits"
@@ -90,7 +90,7 @@
 /datum/gear/uniform/scrubs
 	display_name = "scrubs selection"
 	path = /obj/item/clothing/under/rank/medical/black
-	allowed_roles = list("Scientist","Chief Medical Officer", "Medical Doctor", "Pharmacist", "Geneticist", "Paramedic", "Medical Resident", "Xenobiologist", "Roboticist", "Research Director", "Forensic Technician")
+	allowed_roles = list(MEDICAL_ROLES, SCIENCE_ROLES, "Physician", "Forensic Technician")
 
 /datum/gear/uniform/scrubs/New()
 	..()
@@ -134,6 +134,7 @@
 	display_name = "uniform, captain dress"
 	path = /obj/item/clothing/under/dress/dress_cap
 	allowed_roles = list("Captain")
+	allowed_maps = list("aurora", "exodus")
 
 /datum/gear/uniform/customdress
 	display_name = "evening gown"
@@ -142,16 +143,6 @@
 /datum/gear/uniform/customdress/New()
 	..()
 	gear_tweaks = list(gear_tweak_free_color_choice)
-
-/datum/gear/uniform/uniform_hop
-	display_name = "uniform, HoP dress"
-	path = /obj/item/clothing/under/dress/dress_hop
-	allowed_roles = list("Head of Personnel")
-
-/datum/gear/uniform/uniform_hr
-	display_name = "uniform, HR director (HoP)"
-	path = /obj/item/clothing/under/dress/dress_hr
-	allowed_roles = list("Head of Personnel")
 
 /datum/gear/uniform/pants
 	display_name = "pants selection"

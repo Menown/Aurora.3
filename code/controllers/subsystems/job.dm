@@ -107,6 +107,8 @@
 		if((character_age < job.minimum_character_age) && !(species.spawn_flags & NO_AGE_MINIMUM))
 			to_chat(player, "<span class='warning'>Your character is too young!</span>")
 			return FALSE
+		if(player.client.prefs.species in job.species_blacklist)
+			return FALSE
 
 		var/position_limit = job.total_positions
 		if(!latejoin)
@@ -242,7 +244,7 @@
 	Debug("AC1, Candidates: [assistant_candidates.len]")
 	for(var/mob/abstract/new_player/player in assistant_candidates)
 		Debug("AC1 pass, Player: [player]")
-		AssignRole(player, "Assistant")
+		AssignRole(player, current_map.assistant_job)
 		assistant_candidates -= player
 	Debug("DO, AC1 end")
 
@@ -296,7 +298,7 @@
 	for(var/mob/abstract/new_player/player in unassigned)
 		if(player.client.prefs.alternate_option == BE_ASSISTANT)
 			Debug("AC2 Assistant located, Player: [player]")
-			AssignRole(player, "Assistant")
+			AssignRole(player, current_map.assistant_job)
 
 	//For ones returning to lobby
 	for(var/mob/abstract/new_player/player in unassigned)

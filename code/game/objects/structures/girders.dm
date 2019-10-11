@@ -9,6 +9,7 @@
 	var/cover = 50 //how much cover the girder provides against projectiles.
 	var/material/reinf_material
 	var/reinforcing = 0
+	var/can_reinforce = TRUE
 
 /obj/structure/girder/displaced
 	icon_state = "displaced"
@@ -119,7 +120,7 @@
 				if(!src) return
 				to_chat(user, "<span class='notice'>You unsecured the support struts!</span>")
 				state = 1
-		else if(anchored && !reinf_material)
+		else if(anchored && !reinf_material && can_reinforce)
 			playsound(src.loc, W.usesound, 100, 1)
 			reinforcing = !reinforcing
 			to_chat(user, "<span class='notice'>\The [src] can now be [reinforcing? "reinforced" : "constructed"]!</span>")
@@ -134,7 +135,7 @@
 			reinf_material = null
 			reset_girder()
 
-	else if(W.iscrowbar() && state == 0 && anchored)
+	else if(W.iscrowbar() && state == 0 && anchored && !istype(src, /obj/structure/girder/wood/adhomai))
 		playsound(src.loc, 'sound/items/Crowbar.ogg', 100, 1)
 		to_chat(user, "<span class='notice'>Now dislodging the girder...</span>")
 		if(do_after(user, 40/W.toolspeed))
@@ -184,6 +185,9 @@
 		wall_fake = 1
 
 	var/turf/Tsrc = get_turf(src)
+	if(istype(Tsrc, /obj/structure/girder/wood/adhomai))
+		Tsrc.ChangeTurf(/turf/simulated/wall/wood/adhomai)
+		return 1
 	Tsrc.ChangeTurf(/turf/simulated/wall)
 	var/turf/simulated/wall/T = get_turf(src)
 	T.set_material(M, reinf_material)
@@ -203,7 +207,7 @@
 		return 0
 
 	var/material/M = name_to_material[S.default_type]
-	if(!istype(M) || M.integrity < 50)
+	if(!istype(M) || M.integrity < 50 || istype(src, /turf/simulated/wall/wood/adhomai))
 		to_chat(user, "You cannot reinforce \the [src] with that; it is too soft.")
 		return 0
 

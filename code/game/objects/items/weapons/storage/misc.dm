@@ -60,3 +60,16 @@
 /obj/item/weapon/storage/box/pineapple/fill()
 	. = ..()
 	update_icon()
+
+/obj/item/weapon/storage/box/burialurn/wooden
+	name = "wooden burial urn"
+	desc = "A wooden urn. Almost looks kind of like a bucket, lid and all."
+	icon_state = "woodenburialurn"
+	can_hold = list(/obj/item/organ)
+
+/obj/item/weapon/storage/box/burialurn
+	name = "burial urn"
+	desc = "A burial urn. Moderately higher quality."
+	icon_state = "burialurn"
+	storage_slots = 100
+	can_hold = list(/obj/item/organ)

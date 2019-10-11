@@ -93,7 +93,7 @@
 	held_type = /mob/living/simple_animal/ice_tunneler
 
 /obj/structure/largecrate/animal/adhomai/fatshouter
-	held_type = /mob/living/simple_animal/fatshouter
+	held_type = /mob/living/simple_animal/cow/fatshouter
 
 /obj/structure/largecrate/animal/adhomai/rafama
 	held_type = /mob/living/simple_animal/hostile/retaliate/rafama

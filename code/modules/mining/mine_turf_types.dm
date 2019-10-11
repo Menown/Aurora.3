@@ -65,7 +65,7 @@
 
 	footstep_sound = "concretestep"
 
-/turf/unsimulated/floor/asteroid/basalt/get_smooth_underlay_icon(mutable_appearance/underlay_appearance, turf/asking_turf, adjacency_dir)
+/turf/simulated/floor/asteroid/basalt/get_smooth_underlay_icon(mutable_appearance/underlay_appearance, turf/asking_turf, adjacency_dir)
 	underlay_appearance.icon = icon
 	underlay_appearance.icon_state = "basalt"
 	if (prob(20))

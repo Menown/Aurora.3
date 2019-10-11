@@ -657,6 +657,7 @@ var/list/name_to_material
 	name = "iron"
 	stack_type = /obj/item/stack/material/iron
 	icon_colour = "#5C5454"
+	integrity = 150
 	weight = 22
 	conductivity = 10
 	sheet_singular_name = "ingot"
@@ -706,7 +707,17 @@ var/list/name_to_material
 	golem = "Wood Golem"
 	hitsound = 'sound/effects/woodhit.ogg'
 
-/material/wood/log //This is gonna replace wood planks in a  way for NBT, leaving it here for now
+/material/wood/place_dismantled_girder(var/turf/target)
+	new /obj/structure/girder/wood(target)
+
+/material/wood/adhomai
+	name = "adhomaiwood"
+	display_name = "wood"
+
+/material/wood/adhomai/place_dismantled_girder(var/turf/target)
+	new /obj/structure/girder/wood/adhomai(target)
+
+/material/wood/log //This is gonna replace wood planks in a way for NBT, leaving it here for now
 	name = "log"
 	stack_type = /obj/item/stack/material/woodlog 
 	icon_colour = "#824B28"

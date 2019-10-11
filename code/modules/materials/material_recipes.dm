@@ -31,6 +31,7 @@
 
 /material/steel/generate_recipes()
 	..()
+	recipes += new/datum/stack_recipe("anvil", /obj/structure/anvil, 25, time = 40, one_per_turf = 1, on_floor = 1)
 	recipes += new/datum/stack_recipe_list("office chairs",list( \
 		new/datum/stack_recipe("dark office chair", /obj/structure/bed/chair/office/dark, 5, one_per_turf = 1, on_floor = 1), \
 		new/datum/stack_recipe("light office chair", /obj/structure/bed/chair/office/light, 5, one_per_turf = 1, on_floor = 1) \
@@ -118,6 +119,7 @@
 
 /material/wood/generate_recipes()
 	..()
+	recipes += new/datum/stack_recipe("wooden girders", /obj/structure/girder/wood/adhomai, 2, time = 50, one_per_turf = 1, on_floor = 1)
 	recipes += new/datum/stack_recipe("wooden sandals", /obj/item/clothing/shoes/sandal, 1)
 	recipes += new/datum/stack_recipe("wood circlet", /obj/item/woodcirclet, 1)
 	recipes += new/datum/stack_recipe("wood floor tile", /obj/item/stack/tile/wood, 1, 4, 20)
@@ -130,8 +132,11 @@
 	recipes += new/datum/stack_recipe("book shelf", /obj/structure/bookcase, 5, time = 15, one_per_turf = 1, on_floor = 1)
 	recipes += new/datum/stack_recipe("ore box", /obj/structure/ore_box, 10, time = 15, one_per_turf = 1, on_floor = 1)
 	recipes += new/datum/stack_recipe("wooden bucket", /obj/item/weapon/reagent_containers/glass/bucket/wood, 2, time = 4, one_per_turf = 0, on_floor = 0)
-	recipes += new/datum/stack_recipe("shaft", /obj/item/weapon/material/shaft, 10, time = 25, one_per_turf = 0, on_floor = 0)
+	recipes += new/datum/stack_recipe("shaft", /obj/item/weapon/material/shaft, 1, time = 65, one_per_turf = 0, on_floor = 0)
 	recipes += new/datum/stack_recipe("buckler donut", /obj/item/weapon/material/woodenshield, 20, time = 25, one_per_turf = 0, on_floor = 0)
+	recipes += new/datum/stack_recipe("bonfire", /obj/structure/bonfire, 8, time = 25, one_per_turf = 1, on_floor = 1)
+	recipes += new/datum/stack_recipe("torch", /obj/item/device/flashlight/flare/torch, 2, time = 15, one_per_turf = 0, on_floor = 0)
+	recipes += new/datum/stack_recipe("skewer", /obj/item/weapon/reagent_containers/cooking_container/fire/skewer, 1)
 
 /material/cardboard/generate_recipes()
 	..()
@@ -185,3 +190,53 @@
 /material/diamond/generate_recipes()
 	..()
 	recipes += new/datum/stack_recipe("diamond floor tile", /turf/simulated/floor/diamond, 1, 4, 20)
+
+/material/iron/generate_recipes()
+	..()
+	recipes += new/datum/stack_recipe("cooking pot", /obj/item/weapon/reagent_containers/cooking_container/fire/pot, 3)
+	recipes += new/datum/stack_recipe("stove", /obj/structure/bonfire/fireplace/stove, 20, time = 25, one_per_turf = 1, on_floor = 1)
+
+/material/leather/generate_recipes()
+	..()
+	recipes += new/datum/stack_recipe("leather shoes", /obj/item/clothing/shoes/leather, 9)
+	recipes += new/datum/stack_recipe("leather strips", /obj/item/stack/leather_strips, 1, 4, 20)
+	recipes += new/datum/stack_recipe("toolbelt", /obj/item/weapon/storage/belt/utility, 20, time = 10)
+	recipes += new/datum/stack_recipe("leather satchel", /obj/item/weapon/storage/backpack/satchel, 10, time = 30)
+	recipes += new/datum/stack_recipe_list("leather gloves", list ( \
+		new/datum/stack_recipe("leather gloves", /obj/item/clothing/gloves/botanic_leather, 5), \
+		new/datum/stack_recipe("unathi leather gloves", /obj/item/clothing/gloves/botanic_leather/unathi, 5), \
+		new/datum/stack_recipe("tajara leather gloves", /obj/item/clothing/gloves/botanic_leather/tajara, 5), \
+		))
+
+/material/clay/generate_recipes()
+	..()
+	recipes += new/datum/stack_recipe("smelter", /obj/structure/smelter, 40, time = 200, one_per_turf = 1, on_floor = 1)
+	recipes += new/datum/stack_recipe_list("blacksmithing molds", list ( \
+		new/datum/stack_recipe("spoon mold", /obj/item/mold, 1), \
+		new/datum/stack_recipe("fork mold", /obj/item/mold/fork, 1), \
+		new/datum/stack_recipe("knife mold", /obj/item/mold/knife, 1), \
+		new/datum/stack_recipe("pot mold", /obj/item/mold/pot, 10), \
+		new/datum/stack_recipe("shovel mold", /obj/item/mold/shovel, 6), \
+		new/datum/stack_recipe("shield mold", /obj/item/mold/shield, 6), \
+		new/datum/stack_recipe("pike mold", /obj/item/mold/pike, 1), \
+		new/datum/stack_recipe("butterfly blade mold", /obj/item/mold/butterflyblade, 1), \
+		new/datum/stack_recipe("butterfly handle mold", /obj/item/mold/butterflyhandle, 1), \
+		new/datum/stack_recipe("pickaxe mold", /obj/item/mold/pickaxe, 5), \
+		new/datum/stack_recipe("axehead mold", /obj/item/mold/axehead, 6), \
+		new/datum/stack_recipe("ring mold", /obj/item/mold/ring, 1), \
+		new/datum/stack_recipe("key mold", /obj/item/mold/key, 3), \
+		new/datum/stack_recipe("lock mold", /obj/item/mold/lock, 3), \
+		new/datum/stack_recipe("armor mold", /obj/item/mold/armor, 15), \
+		new/datum/stack_recipe("bat mold", /obj/item/mold/bat, 10), \
+		new/datum/stack_recipe("halberd mold", /obj/item/mold/halberd, 6), \
+		new/datum/stack_recipe("sword mold", /obj/item/mold/sword, 10), \
+		new/datum/stack_recipe("helmet mold", /obj/item/mold/helmet, 5), \
+		new/datum/stack_recipe("urn mold", /obj/item/mold/urn, 6), \
+		new/datum/stack_recipe("gauntlet mold", /obj/item/mold/gauntlets, 3), \
+		new/datum/stack_recipe("boots", /obj/item/mold/boots, 2), \
+		new/datum/stack_recipe("smithing hammer mold", /obj/item/mold/blacksmith_hammer, 5), \
+		new/datum/stack_recipe("screwdriver mold", /obj/item/mold/tools/screwdriver, 1), \
+		new/datum/stack_recipe("crowbar mold", /obj/item/mold/tools/crowbar, 1), \
+		new/datum/stack_recipe("wrench mold", /obj/item/mold/tools/wrench, 1), \
+		new/datum/stack_recipe("ingot mold", /obj/item/mold/ingot, 1), \
+		))

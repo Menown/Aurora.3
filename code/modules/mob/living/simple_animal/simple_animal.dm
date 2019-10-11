@@ -447,7 +447,7 @@ mob/living/simple_animal/bullet_act(var/obj/item/projectile/Proj)
 		poke()
 
 	else if(meat_type && (stat == DEAD))	//if the animal has a meat, and if it is dead.
-		if(istype(O, /obj/item/weapon/material/knife) || istype(O, /obj/item/weapon/material/kitchen/utensil/knife)|| istype(O, /obj/item/weapon/material/hatchet))
+		if(istype(O, /obj/item/weapon/material/knife) || istype(O, /obj/item/weapon/material/kitchen/utensil/knife) || istype(O, /obj/item/weapon/material/hatchet))
 			harvest(user)
 	else
 		attacked_with_item(O, user)
@@ -601,7 +601,9 @@ mob/living/simple_animal/bullet_act(var/obj/item/projectile/Proj)
 	var/actual_meat_amount = max(1,(meat_amount*0.75))
 	if(meat_type && actual_meat_amount>0 && (stat == DEAD))
 		for(var/i=0;i<actual_meat_amount;i++)
-			new meat_type(get_turf(src))
+			var/obj/item/meat = new meat_type(get_turf(src))
+			if (meat.name == "meat")
+				meat.name = "[src.name] [meat.name]"
 
 		if(butchering_products)
 			for(var/path in butchering_products)

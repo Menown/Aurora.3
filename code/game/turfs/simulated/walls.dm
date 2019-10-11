@@ -169,8 +169,7 @@
 	if(!no_product)
 		if(reinf_material)
 			reinf_material.place_dismantled_girder(src, reinf_material)
-		else
-			material.place_dismantled_girder(src)
+		material.place_dismantled_girder(src)
 		material.place_dismantled_product(src,devastated)
 
 	for(var/obj/O in src.contents) //Eject contents!
@@ -247,10 +246,7 @@
 
 /turf/simulated/wall/proc/burn(temperature)
 	if(material.combustion_effect(src, temperature, 0.7))
-		spawn(2)
-			new /obj/structure/girder(src)
-			src.ChangeTurf(/turf/simulated/floor)
-			for(var/turf/simulated/wall/W in range(3,src))
-				W.burn((temperature/4))
-			for(var/obj/machinery/door/airlock/phoron/D in range(3,src))
-				D.ignite(temperature/4)
+		material.place_dismantled_girder(src)
+		src.ChangeTurf(baseturf)
+		for(var/turf/simulated/wall/W in range(3,src))
+			addtimer(CALLBACK(W, .proc/burn, temperature/4), 2)

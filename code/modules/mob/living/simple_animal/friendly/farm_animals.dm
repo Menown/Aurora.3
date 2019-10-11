@@ -303,4 +303,3 @@
 /mob/living/simple_animal/penguin/emperor
 	name = "emperor penguin"
 	desc = "Emperor of all he surveys."
-

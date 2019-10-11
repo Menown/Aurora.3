@@ -555,7 +555,10 @@
 		/obj/item/seeds/watermelonseed = 30,
 		/obj/item/seeds/wheatseed = 20,
 		/obj/item/seeds/whitebeetseed = 20,
-		/obj/item/seeds/dynseed = 80
+		/obj/item/seeds/dynseed = 80,
+		/obj/item/seeds/nmshaan = 60,
+		/obj/item/seeds/nfrihi = 60
+
 	)
 	restock_items = 1
 	random_itemcount = 0
