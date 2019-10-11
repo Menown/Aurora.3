@@ -4,7 +4,7 @@
 /area/mine/unexplored)
 "ab" = (
 /mob/living/simple_animal/hostile/carp,
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/mine/unexplored)
 "ac" = (
 /obj/structure/grille,
@@ -108,7 +108,7 @@
 /obj/item/stack/material/steel{
 	amount = 50
 	},
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/mine/unexplored)
 "ar" = (
 /obj/machinery/power/rtg/advanced,
@@ -401,19 +401,19 @@
 /area/derelict/ship)
 "bh" = (
 /turf/simulated/mineral/surface,
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/mine/unexplored)
 "bi" = (
 /obj/structure/window/phoronreinforced,
 /turf/simulated/floor/tiled,
 /area/derelict/ship)
 "bj" = (
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/mine/unexplored)
 "bk" = (
 /obj/structure/lattice,
 /obj/structure/lattice/catwalk,
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/derelict)
 "bl" = (
 /obj/machinery/deployable/barrier,
@@ -1431,7 +1431,7 @@
 /area/derelict/ship)
 "ee" = (
 /obj/effect/floor_decal/asteroid,
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/mine/unexplored)
 "ef" = (
 /obj/structure/window/reinforced{
@@ -1608,7 +1608,7 @@
 /obj/structure/lattice,
 /obj/structure/lattice/catwalk,
 /obj/structure/lattice/catwalk,
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/derelict)
 "eG" = (
 /obj/effect/decal/cleanable/greenglow,
@@ -1964,7 +1964,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/derelict)
 "fF" = (
 /obj/effect/decal/cleanable/blood,
@@ -2025,7 +2025,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/derelict)
 "fQ" = (
 /obj/machinery/constructable_frame/temp_deco,
@@ -4200,14 +4200,14 @@
 	},
 /area/derelict/ship)
 "mx" = (
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /turf/simulated/shuttle/wall/dark{
 	dir = 8;
 	icon_state = "diagonalWall3"
 	},
 /area/derelict/ship)
 "my" = (
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /turf/simulated/shuttle/wall/dark{
 	dir = 5;
 	icon_state = "diagonalWall3"
@@ -4216,11 +4216,11 @@
 "mz" = (
 /obj/structure/lattice,
 /obj/structure/window/reinforced,
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/mine/unexplored)
 "mA" = (
 /obj/structure/window/reinforced,
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/mine/unexplored)
 "mB" = (
 /obj/effect/decal/cleanable/dirt,
@@ -4322,7 +4322,7 @@
 /obj/structure/window/reinforced{
 	dir = 8
 	},
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/derelict/ship)
 "mS" = (
 /obj/structure/computerframe,
@@ -5630,11 +5630,11 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/mine/unexplored)
 "rh" = (
 /obj/effect/floor_decal/asteroid,
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/mine/unexplored)
 "ri" = (
 /turf/simulated/floor/airless{
@@ -5662,7 +5662,7 @@
 /area/derelict/ship)
 "rn" = (
 /obj/structure/lattice,
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/mine/unexplored)
 "ro" = (
 /obj/structure/flora/pottedplant/random,
@@ -5763,7 +5763,7 @@
 /obj/structure/window/reinforced{
 	dir = 4
 	},
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/derelict/ship)
 "rC" = (
 /obj/machinery/suit_storage_unit/standard_unit,
@@ -5885,7 +5885,7 @@
 /obj/structure/window/reinforced{
 	dir = 4
 	},
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/mine/unexplored)
 "rX" = (
 /obj/item/weapon/ore/phoron,
@@ -6113,7 +6113,7 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/mine/unexplored)
 "sD" = (
 /obj/structure/lattice/catwalk,
@@ -6182,7 +6182,7 @@
 /area/derelict)
 "sJ" = (
 /obj/machinery/light,
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/mine/unexplored)
 "sK" = (
 /obj/machinery/light{
@@ -6220,7 +6220,7 @@
 	},
 /area/derelict)
 "sP" = (
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/mine/unexplored)
 "sQ" = (
 /obj/effect/floor_decal/industrial/warning,
@@ -6236,7 +6236,7 @@
 /area/derelict)
 "sS" = (
 /obj/machinery/light,
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/mine/unexplored)
 "sT" = (
 /obj/machinery/door/airlock/hatch,
@@ -7248,7 +7248,7 @@
 	icon_state = "rwindow";
 	dir = 1
 	},
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/mine/unexplored)
 "vu" = (
 /obj/structure/table/rack,
@@ -7471,7 +7471,7 @@
 	dir = 8
 	},
 /obj/structure/window/reinforced,
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/derelict/bridge)
 "vT" = (
 /obj/structure/computerframe,
@@ -8040,7 +8040,7 @@
 /area/derelict)
 "xk" = (
 /obj/structure/lattice,
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/mine/unexplored)
 "xl" = (
 /obj/structure/table/rack,
@@ -8050,7 +8050,7 @@
 	},
 /area/derelict)
 "xm" = (
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/derelict)
 "xn" = (
 /obj/machinery/door/blast/shutters{
@@ -8068,7 +8068,7 @@
 /area/derelict)
 "xo" = (
 /obj/structure/boulder,
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/mine/unexplored)
 "xp" = (
 /obj/machinery/firealarm/east,
@@ -8116,7 +8116,7 @@
 /area/derelict)
 "xv" = (
 /obj/structure/boulder,
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/mine/unexplored)
 "xw" = (
 /obj/effect/decal/cleanable/dirt,
@@ -8163,7 +8163,7 @@
 /area/derelict)
 "xC" = (
 /obj/structure/girder,
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/mine/unexplored)
 "xD" = (
 /obj/effect/decal/cleanable/dirt,
@@ -8221,7 +8221,7 @@
 /obj/structure/boulder,
 /obj/structure/boulder,
 /obj/structure/boulder,
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/mine/unexplored)
 "xL" = (
 /obj/structure/computerframe,
@@ -8346,7 +8346,7 @@
 /area/derelict)
 "ye" = (
 /obj/machinery/mining/brace,
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/derelict)
 "yf" = (
 /obj/machinery/light,
@@ -8358,7 +8358,7 @@
 /area/derelict)
 "yg" = (
 /obj/machinery/mining/drill,
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/derelict)
 "yh" = (
 /obj/machinery/door/airlock/vault/bolted,
@@ -8393,7 +8393,7 @@
 /area/derelict)
 "yl" = (
 /obj/item/stack/rods,
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/mine/unexplored)
 "ym" = (
 /obj/machinery/light{
@@ -8408,11 +8408,11 @@
 /area/derelict)
 "yn" = (
 /obj/structure/lattice,
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/derelict/arrival)
 "yo" = (
 /obj/effect/floor_decal/asteroid,
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/derelict)
 "yp" = (
 /obj/structure/window/reinforced{
@@ -8501,7 +8501,7 @@
 /area/derelict)
 "yy" = (
 /obj/structure/barricade,
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/derelict)
 "yz" = (
 /obj/structure/barricade,
@@ -8531,7 +8531,7 @@
 "yC" = (
 /obj/effect/floor_decal/asteroid,
 /obj/machinery/mining/brace,
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/derelict)
 "yD" = (
 /obj/structure/table/reinforced,
@@ -8560,7 +8560,7 @@
 /area/derelict)
 "yH" = (
 /obj/machinery/floodlight,
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/derelict)
 "yI" = (
 /obj/effect/decal/cleanable/dirt,
@@ -8573,11 +8573,11 @@
 /area/mine/unexplored)
 "yK" = (
 /mob/living/simple_animal/hostile/retaliate/cavern_dweller,
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/mine/unexplored)
 "yL" = (
 /obj/item/weapon/material/shard,
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/mine/unexplored)
 "yM" = (
 /obj/effect/decal/cleanable/dirt,
@@ -8593,10 +8593,10 @@
 /area/mine/unexplored)
 "yO" = (
 /mob/living/simple_animal/hostile/retaliate/cavern_dweller,
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/mine/unexplored)
 "yP" = (
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /turf/simulated/shuttle/wall/dark{
 	dir = 6;
 	icon_state = "diagonalWall3"
@@ -8610,7 +8610,7 @@
 "yR" = (
 /obj/effect/floor_decal/asteroid,
 /mob/living/simple_animal/hostile/retaliate/cavern_dweller,
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/mine/unexplored)
 "yS" = (
 /obj/structure/girder,
@@ -8622,7 +8622,7 @@
 /turf/simulated/floor,
 /area/mine/unexplored)
 "yU" = (
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /turf/simulated/shuttle/wall/dark{
 	dir = 4;
 	icon_state = "diagonalWall3"
@@ -8645,7 +8645,7 @@
 /obj/structure/shuttle/engine/propulsion{
 	icon_state = "propulsion_l"
 	},
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/derelict/storage/engine_storage)
 "yZ" = (
 /obj/effect/decal/cleanable/dirt,
@@ -8715,7 +8715,7 @@
 /area/derelict/ship)
 "zm" = (
 /obj/structure/shuttle/engine/propulsion,
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/derelict/storage/engine_storage)
 "zn" = (
 /turf/simulated/wall/r_wall,
@@ -8993,7 +8993,7 @@
 /obj/structure/shuttle/engine/propulsion{
 	icon_state = "propulsion_r"
 	},
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/derelict/storage/engine_storage)
 "zX" = (
 /obj/effect/floor_decal/carpet{
@@ -10017,7 +10017,7 @@
 /area/derelict/arrival)
 "CU" = (
 /mob/living/simple_animal/hostile/carp/shark,
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/mine/unexplored)
 "CV" = (
 /obj/effect/spider/stickyweb,
@@ -10215,7 +10215,7 @@
 /turf/simulated/floor/tiled/white,
 /area/derelict/arrival)
 "Dt" = (
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/derelict/ship)
 "Du" = (
 /obj/structure/grille,
@@ -11498,7 +11498,7 @@
 /area/derelict/arrival)
 "GJ" = (
 /obj/structure/shuttle/engine/propulsion,
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/derelict/ship)
 "GK" = (
 /obj/structure/mirror{
@@ -12069,7 +12069,7 @@
 /area/derelict/arrival)
 "Iz" = (
 /obj/structure/lattice,
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/derelict/ship)
 "IA" = (
 /obj/structure/closet/emcloset,
@@ -12218,7 +12218,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/derelict/arrival)
 "IU" = (
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/derelict/arrival)
 "IV" = (
 /obj/effect/floor_decal/industrial/loading,
@@ -13175,7 +13175,7 @@
 /area/derelict/arrival)
 "LQ" = (
 /obj/effect/decal/remains,
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/mine/unexplored)
 "LR" = (
 /obj/structure/closet/crate/rfd,
@@ -13770,7 +13770,7 @@
 /area/derelict/arrival)
 "NG" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/mine/unexplored)
 "NH" = (
 /obj/item/weapon/material/shard,
@@ -13795,11 +13795,11 @@
 /area/mine/unexplored)
 "NL" = (
 /obj/item/stack/rods,
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/mine/unexplored)
 "NM" = (
 /obj/item/weapon/material/shard,
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/mine/unexplored)
 "NN" = (
 /obj/item/stack/rods,
@@ -14572,7 +14572,7 @@
 "PI" = (
 /obj/structure/lattice,
 /obj/structure/lattice,
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/mine/unexplored)
 "PJ" = (
 /obj/effect/floor_decal/corner/mauve{
@@ -14867,57 +14867,57 @@
 /area/derelict/arrival)
 "Qo" = (
 /obj/effect/decal/remains/human,
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/mine/unexplored)
 "Qp" = (
 /obj/effect/decal/remains/human,
 /obj/effect/decal/cleanable/blood,
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/mine/unexplored)
 "Qq" = (
 /obj/effect/decal/cleanable/blood,
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/mine/unexplored)
 "Qr" = (
 /obj/item/clothing/under/legion,
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/mine/unexplored)
 "Qs" = (
 /obj/item/clothing/head/legion_beret,
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/mine/unexplored)
 "Qt" = (
 /obj/item/weapon/gun/projectile/gauss,
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/mine/unexplored)
 "Qu" = (
 /obj/effect/decal/remains/human,
 /obj/effect/decal/cleanable/blood,
 /obj/item/clothing/suit/storage/vest/legion,
 /obj/item/clothing/under/legion,
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/mine/unexplored)
 "Qv" = (
 /obj/item/clothing/suit/storage/legion,
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/mine/unexplored)
 "Qw" = (
 /obj/item/weapon/landmine/frag{
 	anchored = 1;
 	deployed = 1
 	},
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/mine/unexplored)
 "Qx" = (
 /obj/item/weapon/storage/backpack/legion,
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/mine/unexplored)
 "Qy" = (
 /obj/item/weapon/landmine/frag{
 	anchored = 1;
 	deployed = 1
 	},
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/mine/unexplored)
 "Qz" = (
 /obj/structure/closet/crate/secure/loot,
@@ -15480,7 +15480,7 @@
 /area/derelict/arrival)
 "RP" = (
 /obj/structure/inflatable/wall,
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/mine/unexplored)
 "RQ" = (
 /obj/structure/inflatable/wall,
@@ -15503,17 +15503,17 @@
 /obj/item/weapon/material/shard{
 	icon_state = "small"
 	},
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/mine/unexplored)
 "RV" = (
 /obj/random/junk,
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/mine/unexplored)
 "RW" = (
 /obj/item/weapon/material/shard{
 	icon_state = "medium"
 	},
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/mine/unexplored)
 "RX" = (
 /obj/machinery/door/airlock/research,
@@ -15551,15 +15551,15 @@
 /turf/simulated/floor/tiled/red,
 /area/derelict/arrival)
 "Se" = (
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/derelict/arrival)
 "Sf" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/derelict/arrival)
 "Sg" = (
 /obj/item/weapon/material/shard,
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/derelict/arrival)
 "Sh" = (
 /obj/item/weapon/material/shard{
@@ -15569,35 +15569,35 @@
 /area/derelict/arrival)
 "Si" = (
 /obj/item/stack/rods,
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/derelict/arrival)
 "Sj" = (
 /obj/item/weapon/material/shard{
 	icon_state = "small"
 	},
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/derelict/arrival)
 "Sk" = (
 /obj/item/stack/rods,
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/derelict/arrival)
 "Sl" = (
 /obj/item/weapon/material/shard{
 	icon_state = "medium"
 	},
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/derelict/arrival)
 "Sm" = (
 /obj/structure/lattice,
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/derelict/arrival)
 "Sn" = (
 /obj/structure/girder,
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/derelict/arrival)
 "So" = (
 /obj/structure/girder,
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/derelict/arrival)
 "Sp" = (
 /obj/effect/floor_decal/corner/green{
@@ -15883,29 +15883,29 @@
 /area/derelict/ship)
 "SX" = (
 /obj/effect/decal/cleanable/blood,
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/mine/unexplored)
 "SY" = (
 /obj/effect/decal/remains/human,
 /obj/item/clothing/head/legion_beret,
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/mine/unexplored)
 "SZ" = (
 /obj/item/clothing/under/legion,
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/mine/unexplored)
 "Ta" = (
 /obj/effect/decal/remains/human,
 /obj/effect/decal/cleanable/blood,
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/mine/unexplored)
 "Tb" = (
 /obj/effect/decal/remains/human,
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/mine/unexplored)
 "Tc" = (
 /mob/living/simple_animal/hostile/retaliate/malf_drone,
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/mine/unexplored)
 "Td" = (
 /obj/structure/lattice/catwalk/indoor,

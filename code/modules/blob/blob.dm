@@ -157,7 +157,7 @@
 
 /obj/effect/blob/proc/expand(var/turf/T)
 	//Dont epxand over unsimulated unless its astroid trufs
-	if(istype(T, /turf/unsimulated/) && !istype(T, /turf/unsimulated/floor/asteroid/))
+	if(istype(T, /turf/unsimulated/) && !istype(T, /turf/simulated/floor/asteroid/))
 		return
 
 	//Dont expand over space or holes, unless there´s a lattice
@@ -201,7 +201,7 @@
 		return
 
 	//If its a astroid turf, ignore it with a 50% chance (so the expansion mostly focuses on the station)
-	if(istype(T,/turf/unsimulated/floor/asteroid/) && prob(50))
+	if(istype(T,/turf/simulated/floor/asteroid/) && prob(50))
 		return
 
 	if(parent_core)

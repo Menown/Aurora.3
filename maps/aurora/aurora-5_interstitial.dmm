@@ -3,11 +3,11 @@
 /turf/unsimulated/chasm_mask,
 /area/mine/unexplored)
 "ab" = (
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/mine/unexplored)
 "ac" = (
 /obj/random/junk,
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/mine/unexplored)
 "ad" = (
 /turf/simulated/wall/r_wall,
@@ -361,7 +361,7 @@
 	pixel_x = -32;
 	pixel_y = -26
 	},
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/mine/unexplored)
 "aS" = (
 /obj/structure/grille,
@@ -6852,7 +6852,7 @@
 /area/medical/upperlevel)
 "mX" = (
 /obj/structure/lattice,
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/maintenance/interstitial_construction_site/zone_2)
 "na" = (
 /obj/machinery/door/firedoor,
@@ -6962,7 +6962,7 @@
 /obj/item/weapon/material/shard{
 	icon_state = "medium"
 	},
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/maintenance/interstitial_construction_site)
 "nI" = (
 /obj/structure/track{
@@ -7070,7 +7070,7 @@
 /obj/effect/landmark{
 	name = "cavernspawn"
 	},
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/mine/unexplored)
 "oF" = (
 /turf/simulated/open,
@@ -7251,7 +7251,7 @@
 	},
 /area/mine/unexplored)
 "qe" = (
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/maintenance/interstitial_construction_site)
 "qf" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -7814,7 +7814,7 @@
 /obj/structure/track{
 	icon_state = "track12"
 	},
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/mine/unexplored)
 "uD" = (
 /obj/structure/disposalpipe/segment,
@@ -8099,7 +8099,7 @@
 /turf/simulated/floor/tiled/white,
 /area/medical/virology)
 "wY" = (
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/maintenance/interstitial_construction_site/zone_2)
 "xv" = (
 /obj/structure/disposalpipe/segment,
@@ -8533,7 +8533,7 @@
 "BH" = (
 /obj/structure/lattice,
 /obj/structure/grille/broken,
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/maintenance/interstitial_construction_site/zone_2)
 "BJ" = (
 /obj/item/modular_computer/console/preset/engineering,
@@ -9028,7 +9028,7 @@
 /obj/structure/girder,
 /obj/structure/sign/biohazard,
 /obj/structure/grille,
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/mine/unexplored)
 "FF" = (
 /obj/effect/floor_decal/corner/red/full{
@@ -10782,7 +10782,7 @@
 /obj/machinery/floodlight{
 	name = "Construction Floodlight"
 	},
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/maintenance/interstitial_construction_site/zone_2)
 "Nf" = (
 /obj/structure/grille,
@@ -10858,7 +10858,7 @@
 /obj/random/loot,
 /obj/random/tech_supply,
 /obj/random/tech_supply,
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/maintenance/interstitial_construction_site)
 "NS" = (
 /obj/effect/floor_decal/corner/beige/diagonal,
@@ -10963,7 +10963,7 @@
 /area/maintenance/interstitial_construction_site/zone_2)
 "OX" = (
 /obj/structure/lattice,
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/maintenance/interstitial_construction_site)
 "Pk" = (
 /obj/effect/floor_decal/corner/blue{
@@ -11248,7 +11248,7 @@
 /obj/effect/landmark{
 	name = "carpspawn"
 	},
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/mine/unexplored)
 "Rf" = (
 /obj/effect/decal/cleanable/dirt,
@@ -11263,7 +11263,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/bridge/selfdestruct)
 "Rg" = (
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/space)
 "Ro" = (
 /obj/effect/floor_decal/corner/green{

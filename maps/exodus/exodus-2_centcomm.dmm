@@ -15587,7 +15587,7 @@
 /obj/machinery/light/small{
 	dir = 8
 	},
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/merchant_station)
 "aSi" = (
 /turf/unsimulated/floor{
@@ -16168,7 +16168,7 @@
 	},
 /area/centcom/control)
 "aTw" = (
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/template_noop)
 "aTx" = (
 /turf/space,

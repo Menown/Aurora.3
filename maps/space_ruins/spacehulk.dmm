@@ -235,7 +235,7 @@
 /area/derelict)
 "aD" = (
 /mob/living/simple_animal/hostile/retaliate/cavern_dweller,
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/derelict)
 "aE" = (
 /obj/structure/grille,
@@ -1049,7 +1049,7 @@
 	icon_state = "rwindow";
 	dir = 8
 	},
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/derelict)
 "cs" = (
 /obj/structure/window/reinforced{
@@ -1060,7 +1060,7 @@
 	icon_state = "rwindow";
 	dir = 1
 	},
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/derelict)
 "ct" = (
 /obj/structure/grille,
@@ -1161,7 +1161,7 @@
 	dir = 8
 	},
 /obj/effect/floor_decal/asteroid,
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/derelict)
 "cE" = (
 /obj/structure/grille,
@@ -1238,7 +1238,7 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/asteroid,
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/derelict)
 "cL" = (
 /obj/structure/window/reinforced{
@@ -1246,7 +1246,7 @@
 	dir = 8
 	},
 /obj/structure/window/reinforced,
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/derelict)
 "cM" = (
 /obj/structure/window/reinforced,
@@ -1254,7 +1254,7 @@
 	icon_state = "rwindow";
 	dir = 4
 	},
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/derelict)
 "cN" = (
 /obj/structure/window/reinforced{
@@ -1262,7 +1262,7 @@
 	dir = 4
 	},
 /obj/structure/window/reinforced,
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/derelict)
 "cO" = (
 /obj/structure/window/reinforced{
@@ -1680,7 +1680,7 @@
 /area/derelict)
 "dA" = (
 /obj/effect/decal/remains/human,
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/derelict)
 "dB" = (
 /obj/structure/lattice/catwalk/indoor,
@@ -1692,7 +1692,7 @@
 	icon_state = "rwindow";
 	dir = 1
 	},
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/derelict)
 "dC" = (
 /obj/structure/lattice/catwalk/indoor,
@@ -1704,7 +1704,7 @@
 	icon_state = "rwindow";
 	dir = 1
 	},
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/derelict)
 "dD" = (
 /obj/machinery/mining/brace,
@@ -1712,7 +1712,7 @@
 	icon_state = "rwindow";
 	dir = 1
 	},
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/derelict)
 "dF" = (
 /obj/structure/lattice/catwalk/indoor,
@@ -1720,11 +1720,11 @@
 	icon_state = "rwindow";
 	dir = 4
 	},
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/derelict)
 "dG" = (
 /obj/effect/decal/cleanable/ash,
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/derelict)
 "dH" = (
 /obj/structure/lattice/catwalk/indoor,
@@ -1732,11 +1732,11 @@
 	icon_state = "rwindow";
 	dir = 8
 	},
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/derelict)
 "dI" = (
 /obj/machinery/mining/drill,
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/derelict)
 "dJ" = (
 /obj/structure/lattice/catwalk/indoor,
@@ -1745,7 +1745,7 @@
 /area/derelict)
 "dK" = (
 /obj/machinery/mining/brace,
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/derelict)
 "dL" = (
 /obj/structure/lattice,
@@ -1779,7 +1779,7 @@
 /area/derelict)
 "dP" = (
 /obj/structure/lattice/catwalk/indoor,
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/derelict)
 "dQ" = (
 /obj/random/loot,
@@ -1877,7 +1877,7 @@
 /area/derelict)
 "eg" = (
 /obj/item/weapon/storage/box/excavation,
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/derelict)
 "eh" = (
 /obj/effect/decal/cleanable/dirt,
@@ -5037,7 +5037,7 @@
 	icon_state = "rwindow";
 	dir = 1
 	},
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/derelict)
 "nD" = (
 /obj/structure/window/reinforced{
@@ -5048,39 +5048,39 @@
 	icon_state = "rwindow";
 	dir = 4
 	},
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/derelict)
 "nE" = (
 /obj/structure/window/reinforced{
 	icon_state = "rwindow";
 	dir = 8
 	},
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/derelict)
 "nF" = (
 /obj/structure/window/reinforced{
 	icon_state = "rwindow";
 	dir = 4
 	},
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/derelict)
 "nG" = (
 /obj/effect/floor_decal/asteroid,
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/derelict)
 "nH" = (
 /obj/structure/window/reinforced{
 	icon_state = "rwindow";
 	dir = 1
 	},
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/derelict)
 "nI" = (
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/derelict)
 "nJ" = (
 /obj/mecha/working/ripley/mining,
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/derelict)
 "nK" = (
 /obj/structure/window/reinforced,
@@ -5088,11 +5088,11 @@
 	icon_state = "rwindow";
 	dir = 8
 	},
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/derelict)
 "nL" = (
 /obj/structure/window/reinforced,
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/derelict)
 "nM" = (
 /obj/structure/window/reinforced{

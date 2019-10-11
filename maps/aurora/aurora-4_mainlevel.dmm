@@ -3,10 +3,10 @@
 /turf/unsimulated/chasm_mask,
 /area/mine/unexplored)
 "aab" = (
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/mine/unexplored)
 "aac" = (
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/syndicate_station/caverns)
 "aad" = (
 /turf/simulated/wall,
@@ -246,7 +246,7 @@
 "aaz" = (
 /obj/structure/lattice,
 /obj/structure/lattice,
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/mine/unexplored)
 "aaA" = (
 /obj/structure/closet,
@@ -301,7 +301,7 @@
 /obj/structure/lattice,
 /obj/structure/grille/broken,
 /obj/structure/lattice,
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/mine/unexplored)
 "aaI" = (
 /obj/structure/cable{
@@ -1194,7 +1194,7 @@
 /obj/effect/landmark{
 	name = "cavernspawn"
 	},
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/mine/unexplored)
 "acv" = (
 /obj/structure/grille,
@@ -2446,7 +2446,7 @@
 /obj/effect/landmark{
 	name = "carpspawn"
 	},
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/mine/unexplored)
 "aeU" = (
 /obj/structure/grille/broken,
@@ -6616,7 +6616,7 @@
 /area/maintenance/security_starboard)
 "ans" = (
 /obj/machinery/light/spot,
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/bridge)
 "ant" = (
 /obj/machinery/portable_atmospherics/canister/nitrogen,
@@ -11163,7 +11163,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/bridge)
 "avi" = (
 /turf/simulated/wall,
@@ -11264,7 +11264,7 @@
 	icon_state = "tube1";
 	pixel_x = 0
 	},
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/bridge)
 "avp" = (
 /turf/simulated/open,
@@ -17180,7 +17180,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/crew_quarters/captain)
 "aFo" = (
 /obj/machinery/atmospherics/pipe/manifold/visible/yellow{
@@ -60981,13 +60981,13 @@
 /obj/structure/track{
 	icon_state = "track4"
 	},
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/mine/unexplored)
 "cfe" = (
 /obj/structure/track{
 	icon_state = "track12"
 	},
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/mine/unexplored)
 "cff" = (
 /obj/structure/track{
@@ -62742,7 +62742,7 @@
 	},
 /area/outpost/mining_main/eva)
 "cio" = (
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/skipjack_station/cavern)
 "cip" = (
 /obj/effect/decal/cleanable/dirt,
@@ -66388,7 +66388,7 @@
 	pixel_y = 25;
 	req_access = list(13)
 	},
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/mine/unexplored)
 "nug" = (
 /obj/effect/decal/cleanable/dirt,

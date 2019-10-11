@@ -814,7 +814,7 @@
 /turf/simulated/floor/wood,
 /area/derelict/ship)
 "cq" = (
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/mine/unexplored)
 "cs" = (
 /obj/item/clothing/under/tajaran,
@@ -949,7 +949,7 @@
 /area/derelict/ship)
 "cM" = (
 /obj/effect/decal/remains,
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/mine/unexplored)
 "cN" = (
 /obj/effect/decal/cleanable/blood,
@@ -1519,7 +1519,7 @@
 /area/derelict/ship)
 "eQ" = (
 /obj/structure/shuttle/engine/propulsion,
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/derelict/ship)
 "eR" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1637,7 +1637,7 @@
 /turf/simulated/floor/tiled/white,
 /area/derelict/ship)
 "fj" = (
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/shuttle/research/away)
 "fk" = (
 /obj/effect/decal/cleanable/dirt,

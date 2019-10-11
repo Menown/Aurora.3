@@ -48,7 +48,7 @@
 /turf/simulated/floor/airless/ceiling,
 /area/mine/unexplored)
 "l" = (
-/turf/unsimulated/floor/asteroid/ash,
+/turf/simulated/floor/asteroid/ash,
 /area/mine/unexplored)
 "m" = (
 /turf/simulated/open/airless,

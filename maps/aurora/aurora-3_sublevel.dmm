@@ -441,7 +441,7 @@
 /turf/simulated/floor/plating,
 /area/engineering/atmos)
 "aba" = (
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/mine/unexplored)
 "abb" = (
 /obj/machinery/atmospherics/pipe/simple/visible/yellow,
@@ -4126,7 +4126,7 @@
 	pixel_y = 0;
 	req_access = list(10,13)
 	},
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/mine/unexplored)
 "aiW" = (
 /obj/machinery/atmospherics/pipe/zpipe/up/yellow{
@@ -6304,7 +6304,7 @@
 /obj/effect/landmark{
 	name = "cavernspawn"
 	},
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/mine/unexplored)
 "ani" = (
 /obj/structure/grille,
@@ -10026,7 +10026,7 @@
 /obj/effect/landmark{
 	name = "carpspawn"
 	},
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/mine/unexplored)
 "ase" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -10086,7 +10086,7 @@
 /obj/structure/window/reinforced{
 	dir = 4
 	},
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/mine/unexplored)
 "asw" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -10103,7 +10103,7 @@
 	c_tag = "AI Core - Entrance";
 	pixel_x = 16
 	},
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/mine/unexplored)
 "asy" = (
 /obj/structure/cable{
@@ -10117,18 +10117,18 @@
 /obj/machinery/light/small/emergency{
 	dir = 1
 	},
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/turret_protected/ai_upload_foyer)
 "asB" = (
 /obj/structure/window/reinforced,
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/mine/unexplored)
 "asC" = (
 /obj/structure/window/reinforced{
 	dir = 4
 	},
 /obj/structure/window/reinforced,
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/mine/unexplored)
 "asD" = (
 /obj/effect/decal/cleanable/dirt,
@@ -10146,14 +10146,14 @@
 	dir = 8
 	},
 /obj/structure/window/reinforced,
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/mine/unexplored)
 "asF" = (
 /obj/structure/window/reinforced{
 	icon_state = "rwindow";
 	dir = 4
 	},
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/mine/unexplored)
 "asG" = (
 /turf/simulated/floor{
@@ -10222,7 +10222,7 @@
 /obj/structure/window/reinforced{
 	dir = 8
 	},
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/mine/unexplored)
 "asN" = (
 /obj/structure/window/reinforced{
@@ -10234,7 +10234,7 @@
 /obj/structure/window/reinforced{
 	dir = 1
 	},
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/mine/unexplored)
 "asO" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -10255,7 +10255,7 @@
 /obj/structure/window/reinforced{
 	dir = 4
 	},
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/mine/unexplored)
 "asR" = (
 /turf/simulated/wall/r_wall,
@@ -10494,7 +10494,7 @@
 	icon_state = "rwindow";
 	dir = 1
 	},
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/mine/unexplored)
 "atF" = (
 /obj/structure/table/rack{
@@ -10736,7 +10736,7 @@
 /area/mine/unexplored)
 "auj" = (
 /obj/machinery/light/small/emergency,
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/turret_protected/ai_upload_foyer)
 "auk" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -11028,7 +11028,7 @@
 /obj/structure/window/reinforced{
 	dir = 1
 	},
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/mine/unexplored)
 "auU" = (
 /obj/structure/table/rack{
@@ -25308,7 +25308,7 @@
 /area/rnd/xenobiology)
 "bdr" = (
 /obj/item/clothing/head/collectable/petehat,
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/mine/unexplored)
 "bdB" = (
 /obj/effect/floor_decal/industrial/warning/dust{
@@ -25678,14 +25678,14 @@
 /area/maintenance/research_xenobiology)
 "bgc" = (
 /obj/item/weapon/trap,
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/mine/unexplored)
 "bgd" = (
 /obj/machinery/light/spot/weak{
 	icon_state = "tube_empty";
 	dir = 4
 	},
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/rnd/test_area)
 "bge" = (
 /obj/effect/floor_decal/industrial/warning/dust{
@@ -25825,7 +25825,7 @@
 /area/maintenance/research_xenobiology)
 "bgy" = (
 /obj/structure/barricade,
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/mine/unexplored)
 "bgF" = (
 /obj/effect/floor_decal/industrial/warning/dust,
@@ -26334,7 +26334,7 @@
 /obj/structure/sign/fire{
 	pixel_x = 32
 	},
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/mine/unexplored)
 "biZ" = (
 /obj/machinery/atmospherics/portables_connector{
@@ -28191,7 +28191,7 @@
 	pixel_x = 32;
 	pixel_y = 32
 	},
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/mine/unexplored)
 "dMi" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -28669,7 +28669,7 @@
 /obj/machinery/light/small/emergency{
 	dir = 1
 	},
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/mine/unexplored)
 "eRY" = (
 /obj/structure/cable{
@@ -30896,7 +30896,7 @@
 /area/medical/quarantine)
 "lMp" = (
 /obj/machinery/light/small/emergency,
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/mine/unexplored)
 "lQi" = (
 /obj/item/device/radio/intercom{
@@ -32008,7 +32008,7 @@
 	icon_state = "bulb1";
 	dir = 4
 	},
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/mine/unexplored)
 "oOd" = (
 /obj/effect/floor_decal/industrial/warning/dust{
@@ -32037,7 +32037,7 @@
 "oTN" = (
 /obj/structure/girder/displaced,
 /obj/structure/grille/broken,
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/mine/unexplored)
 "oUd" = (
 /obj/effect/floor_decal/corner/white/diagonal,
@@ -32602,7 +32602,7 @@
 "qEK" = (
 /obj/structure/grille,
 /obj/structure/barricade,
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/mine/unexplored)
 "qFM" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume{
@@ -32855,7 +32855,7 @@
 "rmW" = (
 /obj/structure/barricade,
 /obj/structure/grille,
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/mine/unexplored)
 "rnn" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -33682,7 +33682,7 @@
 /obj/machinery/light/small/emergency{
 	dir = 8
 	},
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/mine/unexplored)
 "tzO" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume{
@@ -34812,7 +34812,7 @@
 /obj/structure/grille/broken,
 /obj/structure/girder/displaced,
 /obj/effect/decal/cleanable/generic,
-/turf/unsimulated/floor/asteroid/ash/rocky,
+/turf/simulated/floor/asteroid/ash/rocky,
 /area/mine/unexplored)
 "wfd" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
