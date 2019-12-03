@@ -235,7 +235,6 @@
 /datum/gear/head/helmet/tank
 	display_name = "padded cap"
 	path = /obj/item/clothing/head/helmet/tank
-	allowed_roles = list(ARMED_ROLES)
 
 /datum/gear/head/helmet/tank/New()
 	..()

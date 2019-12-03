@@ -32,15 +32,15 @@ var/list/tape_roll_applications = list()
 /obj/item/taperoll/police
 	name = "police tape"
 	desc = "A roll of police tape used to block off crime scenes from the public."
-	icon_state = "police_start"
+	icon_state = "atmos_start"
 	tape_type = /obj/item/tape/police
-	icon_base = "police"
+	icon_base = "atmos"
 
 /obj/item/tape/police
 	name = "police tape"
 	desc = "A length of police tape.  Do not cross."
 	req_access = list(access_security)
-	icon_base = "police"
+	icon_base = "atmos"
 
 /obj/item/taperoll/engineering
 	name = "engineering tape"

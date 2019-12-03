@@ -218,7 +218,8 @@
 		/obj/item/weapon/card/emag,
 		/obj/item/device/multitool/hacktool,
 		/obj/item/weapon/reagent_containers/hypospray/combat,
-		/obj/item/stack/telecrystal
+		/obj/item/stack/telecrystal,
+		/obj/item/weapon/storage/box/clip_pouch
 		)
 
 /obj/item/weapon/storage/belt/military/syndicate

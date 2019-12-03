@@ -14,6 +14,13 @@
 
 	var/list/owned_bee_swarms = list()
 
+/obj/machinery/beehive/filled
+	closed = 1
+	bee_count = 100 // Percent
+	smoked = 0 // Timer
+	honeycombs = 100 // Percent
+	frames = 5
+
 /obj/machinery/beehive/update_icon()
 	cut_overlays()
 	icon_state = "beehive"

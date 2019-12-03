@@ -10,5 +10,4 @@
 
 #define CARGO_ROLES list("Cargo Technician", "Quartermaster", "Head of Personnel", "Shaft Miner")
 
-//jobs that have access to guns
-#define ARMED_ROLES list("Captain", "Head of Personnel", "Security Officer", "Warden", "Head of Security", "Detective", "Forensic Technician", "Security Cadet", "Merchant", "Commander", "Supply Officer", "Royal Grenadier", "Sharpshooter", "Levy")
+#define ARMED_ROLES list("Civillian", "Governor", "Innkeeper", "Lighthouse Keeper", "Blacksmith", "Trader", "Commander", "Regular")

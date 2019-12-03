@@ -15,9 +15,7 @@
 	foldable = null
 	autodrobe_no_remove = 1
 	can_hold = list(
-		/obj/item/ammo_magazine/nka,
-		/obj/item/ammo_magazine/boltaction/nka,
-		/obj/item/ammo_magazine/c38/nka
+		/obj/item/ammo_magazine
 		)
 
 /obj/item/weapon/storage/box/clip_pouch/cartridge
@@ -30,7 +28,7 @@
 	autodrobe_no_remove = 1
 	max_storage_space = 28
 	can_hold = list(
-		/obj/item/ammo_casing/a762/nka
+		/obj/item/ammo_casing
 		)
 
 /obj/item/weapon/storage/bag/plants/produce/adhomai

@@ -8,29 +8,12 @@
 	spawn_positions = -1
 	supervisors = "the laws of the land"
 	selection_color = "#ddddff"
-	alt_titles = list("Lumberjack","Farmer", "Farmhand", "Migrant", "Vagrant", "Tourist", "Steward", "Laborer", "Entertainer", "Herbalist", "Sculptor")
-	outfit = /datum/outfit/job/adhomai/commoner
-	alt_outfits = list(
-		"Lumberjack"=/datum/outfit/job/adhomai/commoner/lumberjack,
-		"Farmer"=/datum/outfit/job/adhomai/commoner/farmer,
-		"Sculptor"=/datum/outfit/job/adhomai/commoner/sculptor,
-		"Herbalist"=/datum/outfit/job/adhomai/commoner/herbalist
-		)
+	outfit = /datum/outfit/job/adhomai
 	is_assistant = TRUE
-
 	account_allowed = FALSE
 
-
-/datum/outfit/job/adhomai/commoner/herbalist
-	name = "Herbalist"
-
-	belt = /obj/item/weapon/storage/bag/plants
-	r_pocket = /obj/item/weapon/material/minihoe
-	l_hand = /obj/item/weapon/reagent_containers/glass/bucket
-	r_hand = /obj/item/weapon/wirecutters/clippers
-
 /datum/job/mayor
-	title = "Governor"
+	title = "Mayor"
 	flag = MAYOR
 	department = "Village"
 	head_position = TRUE
@@ -40,17 +23,13 @@
 	spawn_positions = 1
 	supervisors = "the King"
 	selection_color = "#dddddd"
-	alt_titles = list("Mayor")
-
 	outfit = /datum/outfit/job/adhomai/mayor
-
 	species_blacklist = list("Zhan-Khazan Tajara", "M'sai Tajara", HUMAN_SPECIES, UNATHI_SPECIES, SKRELL_SPECIES, VAURCA_SPECIES, DIONA_SPECIES, IPC_SPECIES)
-
 	account_allowed = FALSE
 
-/datum/job/barkeeper
-	title = "Barkeeper"
-	flag = BARKEEPER
+/datum/job/innkeeper
+	title = "Innkeeper"
+	flag = INNKEEPER
 	department = "Village"
 	department_flag = ADHOMAI
 	faction = "Station"
@@ -58,28 +37,20 @@
 	spawn_positions = 2
 	supervisors = "the laws of the land"
 	selection_color = "#ddddff"
-	alt_titles = list("Innkeeper")
-
-	outfit = /datum/outfit/job/adhomai/barkeeper
-
+	outfit = /datum/outfit/job/adhomai/innkeeper
 	account_allowed = FALSE
-	alt_outfits = list(
-		"Innkeeper"=/datum/outfit/job/adhomai/innkeeper
-		)
 
-/datum/job/hunter
-	title = "Hunter"
-	flag = HUNTER
-	department = "Village"
+/datum/job/lighthousekeeper
+	title = "Lighthouse Keeper"
+	flag = LIGHTHOUSEKEEPER
+	department = "Insmr'ath"
 	department_flag = ADHOMAI
 	faction = "Station"
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "the laws of the land"
 	selection_color = "#ddddff"
-	alt_titles = list("Outdoorsman", "Tanner", "Furrier", "Hermit")
-
-	outfit = /datum/outfit/job/adhomai/hunter
+	outfit = /datum/outfit/job/adhomai/lighthousekeeper
 
 	account_allowed = FALSE
 
@@ -89,15 +60,13 @@
 	department = "Village"
 	department_flag = ADHOMAI
 	faction = "Station"
-	total_positions = 5
-	spawn_positions = 5
+	total_positions = -1
+	spawn_positions = -1
 	supervisors = "the laws of the Gods and Men"
 	selection_color = "#ddddff"
-
-	alt_titles = list("Missionary", "Investigator", "Sun Sister", "Sun Daughter", "Priest of S'rrendar", "Sapling", "Mistling", "Suns Penitent")
-	outfit = /datum/outfit/job/adhomai/priest
-
+	alt_titles = list("Sun Sister", "Sun Daughter", "Priest of S'rrendar", "Sapling", "Mistling", "Suns Penitent")
 	account_allowed = FALSE
+	outfit = /datum/outfit/job/adhomai
 
 /datum/job/physician
 	title = "Physician"
@@ -135,22 +104,6 @@
 	outfit = /datum/outfit/job/adhomai/nurse
 	account_allowed = FALSE
 
-/datum/job/prospector
-	title = "Prospector"
-	flag = PROSPECTOR
-	department = "Village"
-	department_flag = ADHOMAI
-	faction = "Station"
-	total_positions = 4
-	spawn_positions = 4
-	supervisors = "the laws of the land"
-	selection_color = "#ddddff"
-	alt_titles = list("Miner", "Surveyor", "Drill Technician", "Geological Specialist", "Spelunker")
-
-	outfit = /datum/outfit/job/adhomai/prospector
-
-	account_allowed = FALSE
-
 /datum/job/blacksmith
 	title = "Blacksmith"
 	flag = BLACKSMITH
@@ -165,21 +118,6 @@
 	outfit = /datum/outfit/job/adhomai/blacksmith
 	account_allowed = FALSE
 
-/datum/job/archeologist
-	title = "Archeologist"
-	flag = ARCHEO
-	department = "Village"
-	department_flag = ADHOMAI
-	faction = "Station"
-	total_positions = 1
-	spawn_positions = 1
-	supervisors = "the laws of the land, and whatever institution or code drives you"
-	selection_color = "#ddddff"
-
-	outfit = /datum/outfit/job/adhomai/archeologist
-
-	account_allowed = FALSE
-
 /datum/job/trader
 	title = "Trader"
 	flag = TRADER
@@ -190,40 +128,5 @@
 	spawn_positions = 1
 	supervisors = "the laws of the land"
 	selection_color = "#ddddff"
-	alt_titles = list("Shopkeep")
-
 	outfit = /datum/outfit/job/adhomai/trader
-
-	account_allowed = FALSE
-
-/datum/job/chief_constable
-	title = "Chief Constable"
-	flag = CHIEFCONSTABLE
-	department = "Village"
-	head_position = TRUE
-	department_flag = ADHOMAI
-	faction = "Station"
-	total_positions = 1
-	spawn_positions = 1
-	supervisors = "the city governance"
-	selection_color = "#dddddd"
-	species_blacklist = list("Zhan-Khazan Tajara", HUMAN_SPECIES, UNATHI_SPECIES, SKRELL_SPECIES, VAURCA_SPECIES, DIONA_SPECIES, IPC_SPECIES)
-
-	outfit = /datum/outfit/job/adhomai/chief_constable
-
-	account_allowed = FALSE
-
-/datum/job/constable
-	title = "Constable"
-	flag = CONSTABLE
-	department = "Village"
-	department_flag = ADHOMAI
-	faction = "Station"
-	total_positions = 3
-	spawn_positions = 3
-	supervisors = "the chief constable"
-	selection_color = "#ddddff"
-	species_blacklist = list(HUMAN_SPECIES, UNATHI_SPECIES, SKRELL_SPECIES, VAURCA_SPECIES, DIONA_SPECIES, IPC_SPECIES)
-	outfit = /datum/outfit/job/adhomai/constable
-
 	account_allowed = FALSE

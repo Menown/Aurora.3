@@ -214,3 +214,9 @@
 	else
 		item_state = "heavysniper"
 	update_held_icon()
+
+/obj/item/weapon/gun/projectile/automatic/rifle/w556/rusted
+	name = "rusted automatic"
+	desc = "Some kind of rusted automatic rifle. How does it still fire?"
+	icon_state = "w556riflerusted"
+	jam_chance = 80

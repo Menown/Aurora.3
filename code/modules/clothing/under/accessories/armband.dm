@@ -4,6 +4,12 @@
 	icon_state = "red"
 	slot = "armband"
 
+/obj/item/clothing/accessory/armband/militia
+	name = "militia armband"
+	desc = "A durable red armband. Features detatchment markings for the Crevan militia."
+	icon_state = "red"
+	slot = "armband"
+
 /obj/item/clothing/accessory/armband/cargo
 	name = "cargo armband"
 	desc = "An armband, worn by the crew to display which department they're assigned to. This one is brown."

@@ -706,7 +706,8 @@
 	name = "suit"
 	var/fire_resist = T0C+100
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO|ARMS|LEGS
-	allowed = list(/obj/item/weapon/tank/emergency_oxygen)
+	allowed = list(/obj/item/weapon/tank/emergency_oxygen,
+					/obj/item/weapon/gun)
 	armor = null
 	slot_flags = SLOT_OCLOTHING
 	var/blood_overlay_type = "suit"

@@ -5,7 +5,7 @@
 	name = "curtain"
 	icon = 'icons/obj/curtain.dmi'
 	icon_state = "closed"
-	layer = SHOWER_OPEN_LAYER
+	layer = 4.1
 	opacity = 1
 	density = 0
 	anchored = 1

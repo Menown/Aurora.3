@@ -34,6 +34,15 @@
 	display_name = "wallet"
 	path = 	/obj/item/weapon/storage/wallet
 
+/datum/gear/utility/wallet/New()
+	..()
+	var/wallets = list()
+	wallets["empty wallet"] = /obj/item/weapon/storage/wallet
+	wallets["poor wallet"] = /obj/item/weapon/storage/wallet/poor
+	wallets["medium wallet"] = /obj/item/weapon/storage/wallet/medium
+	wallets["rich wallet"] = /obj/item/weapon/storage/wallet/rich
+	gear_tweaks += new/datum/gear_tweak/path(wallets)
+
 /datum/gear/utility/cheaptablet
 	display_name = "cheap tablet computer"
 	path = /obj/item/modular_computer/tablet/preset/custom_loadout/cheap
@@ -65,7 +74,27 @@
 		fannys[initial(fanny_type.name)] = fanny_type
 	gear_tweaks += new/datum/gear_tweak/path(sortAssoc(fannys))
 
-/datum/gear/utility/duffelbag
-	display_name = "duffelbag"
+/datum/gear/utility/utilitybelt
+	display_name = "utility belt"
 	cost = 2
-	path = /obj/item/weapon/storage/backpack/duffel
+	path = /obj/item/weapon/storage/belt/utility/full
+
+/datum/gear/utility/gun
+	display_name = "gun"
+	path = /obj/item/weapon/gun
+	cost = 5
+
+/datum/gear/utility/gun/New()
+	..()
+	var/gun = list()
+	gun["revolver"] = /obj/item/weapon/gun/projectile/revolver/adhomian
+	gun["automatic republican rifle"] = /obj/item/weapon/gun/projectile/automatic/rifle/pra
+	gun["republican pistol"] = /obj/item/weapon/gun/projectile/pistol/adhomai
+	gun["double barrel"] = /obj/item/weapon/gun/projectile/shotgun/doublebarrel/pellet
+	gun["bolt action rifle"] = /obj/item/weapon/gun/projectile/shotgun/pump/rifle
+	gear_tweaks += new/datum/gear_tweak/path(gun)
+
+/datum/gear/utility/holdoutpistol
+	display_name = "holdout pistol"
+	path = /obj/item/weapon/gun/projectile/revolver/derringer/adhomai
+	cost = 0

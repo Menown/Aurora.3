@@ -231,7 +231,7 @@
 	desc = "The Royal Firearms Service Revolver is a simple and reliable design, favored by the nobility of the New Kingdom of Adhomai."
 	icon_state = "adhomian_revolver"
 	caliber = "38"
-	max_shells = 7
-	load_method = SINGLE_CASING
+	max_shells = 6
+	load_method = SINGLE_CASING | SPEEDLOADER
 	fire_sound = 'sound/weapons/gunshot/gunshot_strong.ogg'
-	ammo_type = /obj/item/ammo_casing/c38
+	ammo_type = /obj/item/ammo_casing/c38/adhomai

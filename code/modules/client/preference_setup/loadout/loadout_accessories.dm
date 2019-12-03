@@ -43,7 +43,6 @@
 /datum/gear/accessory/holster
 	display_name = "holster selection"
 	path = /obj/item/clothing/accessory/holster/armpit
-	allowed_roles = list(ARMED_ROLES)
 
 /datum/gear/accessory/holster/New()
 	..()

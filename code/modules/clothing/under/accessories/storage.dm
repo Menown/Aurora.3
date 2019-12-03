@@ -128,7 +128,7 @@
 
 /obj/item/clothing/accessory/storage/bandolier
 	name = "bandolier"
-	desc = "A pocketed belt designated to hold shotgun shells."
+	desc = "A pocketed belt designated to hold most forms of cartridges."
 	icon_state = "bandolier"
 	item_state = "bandolier"
 	slots = 16
@@ -137,5 +137,5 @@
 	. = ..()
 	hold.max_storage_space = 16
 	hold.can_hold = list(
-		/obj/item/ammo_casing/shotgun
+		/obj/item/ammo_casing
 	)

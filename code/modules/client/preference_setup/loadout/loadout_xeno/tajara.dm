@@ -73,6 +73,9 @@
 	uniform["fancy uniform"] = /obj/item/clothing/under/tajaran/fancy
 	uniform["NanoTrasen overalls"] = /obj/item/clothing/under/tajaran/nt
 	uniform["matake priest garments"] = /obj/item/clothing/under/tajaran/matake
+	uniform["levy uniform"] = /obj/item/clothing/under/uniform
+	uniform["imperial navy uniform"] = /obj/item/clothing/under/uniform/sailor
+	uniform["republican uniform"] = /obj/item/clothing/under/uniform/pra
 	gear_tweaks += new/datum/gear_tweak/path(uniform)
 
 /datum/gear/uniform/tajara_dress

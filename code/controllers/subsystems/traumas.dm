@@ -99,7 +99,7 @@ var/datum/controller/subsystem/traumas/SStraumas
 												/obj/item/weapon/storage/backpack/cultpack, /obj/item/weapon/storage/bible, /obj/effect/rune, /obj/item/weapon/spirit_board)),
 
 					   "doctors" = typecacheof(list(/obj/item/weapon/gun/launcher/syringe, /obj/item/weapon/reagent_containers/syringe, /obj/item/clothing/suit/storage/toggle/labcoat,
-												 /obj/item/toy/figure/md, /obj/item/weapon/bedsheet/medical, /obj/item/weapon/rig/medical, /obj/item/weapon/storage/backpack/duffel/med,
+												 /obj/item/toy/figure/md, /obj/item/bedsheet/medical, /obj/item/weapon/rig/medical, /obj/item/weapon/storage/backpack/duffel/med,
 												 /obj/item/weapon/storage/backpack/medic, /obj/item/weapon/storage/backpack/messenger/med, /obj/item/weapon/storage/belt/medical,
 												 /obj/machinery/vending/medical, /obj/mecha/medical/odysseus, /obj/structure/closet/crate/medical, /obj/structure/closet/medical_wall,
 												 /obj/structure/sign/bluecross, /obj/item/clothing/accessory/armband/med, /obj/item/clothing/head/helmet/space/void/medical, /obj/item/clothing/mask/breath/medical,
